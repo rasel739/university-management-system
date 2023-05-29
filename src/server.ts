@@ -5,6 +5,11 @@ import logger from './utils/logger';
 
 const port = config.PORT
 
+function getErrorMessage(error: unknown) {
+    if (error instanceof Error) return error.message
+    return String(error)
+}
+
 const startServer = () => {
 
     try {
@@ -14,8 +19,8 @@ const startServer = () => {
             logger.info(`🌐 Server is running on port:${port}`)
         })
 
-    } catch (error: any) {
-        logger.error(`❌ Server error: ${error.message}`)
+    } catch (error) {
+        logger.error(`❌ Server error: ${reportError({ message: getErrorMessage(error) })}`)
     }
 };
 
