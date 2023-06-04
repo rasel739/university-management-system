@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
 import dbConnect from './utils/dbConnect'
 import usersRouter from './app/modules/users/users.route'
+import globalErrorHandler from './app/middlewares/globalErrorHandler'
 
 const app: Application = express()
 
@@ -21,5 +22,7 @@ app.use('/api/v1/users/', usersRouter)
 app.get('/', async (req: Request, res: Response) => {
   res.send('University Management System Server is Running')
 })
+
+app.use(globalErrorHandler)
 
 export default app

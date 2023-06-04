@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 10
+    },
+    "auditLog": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/.763acff8cc5b23c8069893764ff96ddb3598ac96-audit.json",
+    "files": [
+        {
+            "date": 1685730105034,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-03-06-00-success.log",
+            "hash": "d90ecd4aab1859a87a11d72b54e4bec8199c2938945cc0e2e7cbe02a93a8411e"
+        },
+        {
+            "date": 1685811026118,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-03-06-22-success.log",
+            "hash": "4610b64b5160f9c85faabc702f50e1482a1d0be5d4df8745173ec8a765b6924e"
+        },
+        {
+            "date": 1685813612995,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-03-06-23-success.log",
+            "hash": "c8fcbe300b03f3960b606e86c4600b4cafb980eea528ec490e0d0a4a80f13970"
+        },
+        {
+            "date": 1685815691365,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-04-06-00-success.log",
+            "hash": "a090bb70469204706d00771476128016054f0b2814697c29db77046769e005f8"
+        },
+        {
+            "date": 1685897397651,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-04-06-22-success.log",
+            "hash": "b26f64854346b091e0e04f8ef583b1e28e036247d7386de06432b11aea0f3e7c"
+        },
+        {
+            "date": 1685898981123,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-04-06-23-success.log",
+            "hash": "4ff601607160432d05bb26a5356ac43fd4aad84ae27c3ebb00f40458b12cb4cb"
+        }
+    ],
+    "hashType": "sha256"
+}
