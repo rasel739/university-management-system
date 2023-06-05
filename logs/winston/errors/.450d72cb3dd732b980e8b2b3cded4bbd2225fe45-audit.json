@@ -34,6 +34,16 @@
             "date": 1685898981127,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-04-06-23-error.log",
             "hash": "2184089956bc7406908c3d97068326c8baf72b6263bfc118e353ae94ca52a76a"
+        },
+        {
+            "date": 1685982531594,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-05-06-22-error.log",
+            "hash": "614685aade8ffb8ffc551067a3b75065e866d4bd5eaba604441ab2d193d949c3"
+        },
+        {
+            "date": 1685984432857,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-05-06-23-error.log",
+            "hash": "53710157b9647295abbfd4d39bcff8f376cad7f21fc36fe62e60e5ce73a65b10"
         }
     ],
     "hashType": "sha256"
