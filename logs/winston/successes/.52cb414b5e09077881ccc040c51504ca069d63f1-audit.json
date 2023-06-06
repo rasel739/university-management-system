@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 10
+    },
+    "auditLog": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/.52cb414b5e09077881ccc040c51504ca069d63f1-audit.json",
+    "files": [
+        {
+            "date": 1686037538984,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-06-06-13-success.log",
+            "hash": "fded03d15ebfa8428f3a88876543b5fbec62e47dd1b355d3d308b4563de4bb51"
+        },
+        {
+            "date": 1686040720952,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-06-06-14-success.log",
+            "hash": "c64427e71bd990f7a935c3a2bfe22385fc6879f12bb09b4fd2b3e2515fa0226f"
+        }
+    ],
+    "hashType": "sha256"
+}
