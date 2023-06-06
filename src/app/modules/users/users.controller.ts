@@ -3,7 +3,7 @@ import usersService from './users.service'
 
 const createUserController: RequestHandler = async (req, res, next) => {
   try {
-    const { user } = req.body
+    const user = req.body
 
     const result = await usersService.createUserService(user)
 

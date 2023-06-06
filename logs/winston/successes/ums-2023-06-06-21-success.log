@@ -1,0 +1,24 @@
+{
+  message: '🌐 Server is running on port:5000',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'UM-INFO',
+  timestamp: '2023-06-06T15:56:22.545Z'
+}
+{
+  message: '🛢 Database connected successfully',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'UM-INFO',
+  timestamp: '2023-06-06T15:56:24.143Z'
+}
+{
+  message: '🌐 Server is running on port:5000',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'UM-INFO',
+  timestamp: '2023-06-06T15:57:44.466Z'
+}
+{
+  message: '🛢 Database connected successfully',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'UM-INFO',
+  timestamp: '2023-06-06T15:57:46.837Z'
+}
