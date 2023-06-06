@@ -44,6 +44,26 @@
             "date": 1685984432857,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-05-06-23-error.log",
             "hash": "53710157b9647295abbfd4d39bcff8f376cad7f21fc36fe62e60e5ce73a65b10"
+        },
+        {
+            "date": 1686066982364,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-06-06-21-error.log",
+            "hash": "c09f6128200611db32d9d2d1de1e3e64b73577d26afe9146a5a876f6a992d5dd"
+        },
+        {
+            "date": 1686067368036,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-06-06-22-error.log",
+            "hash": "9946a0b13b44f19ebbcae1b7bfd3ccce0d92d5dcd23919f38bef59624584b165"
+        },
+        {
+            "date": 1686071277635,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-06-06-23-error.log",
+            "hash": "8c19586edc9d83c18649e6788da26ca882ab0c77c2cb7937bcd82520c70265cd"
+        },
+        {
+            "date": 1686075317500,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-07-06-00-error.log",
+            "hash": "67b8640c866282bcc9e72afebc53ebc4654d09f024e2bf270ab1564e4cac9123"
         }
     ],
     "hashType": "sha256"
