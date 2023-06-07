@@ -64,6 +64,11 @@
             "date": 1686075317497,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-07-06-00-success.log",
             "hash": "eeb1bd7a47568ae8b60e49dd6a62e010ee01f8d9b37dba80cba20d47b8b019bf"
+        },
+        {
+            "date": 1686160964691,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-08-06-00-success.log",
+            "hash": "a5b132cabb8c91a20165f90263651f20e110e31efa2e324869f192549794ba18"
         }
     ],
     "hashType": "sha256"
