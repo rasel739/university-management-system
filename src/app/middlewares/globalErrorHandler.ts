@@ -13,7 +13,7 @@ const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
     ? console.log('globalErrorHandler ~', err)
     : errorLogger.error('globalErrorHandler ~', err);
 
-  let statusCode = 5000;
+  let statusCode = 500;
   let message = 'Somthing went wrong !';
   let errorMessages: IGenericErrorMessage[] = [];
 

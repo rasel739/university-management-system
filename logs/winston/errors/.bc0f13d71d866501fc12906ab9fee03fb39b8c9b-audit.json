@@ -39,6 +39,21 @@
             "date": 1686135666042,
             "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-07-06-17-error.log",
             "hash": "ece988f1f374cc7ecf4e12943f6623c57cdf2b71e76090ecb1b958a3ac40f272"
+        },
+        {
+            "date": 1686199686898,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-08-06-10-error.log",
+            "hash": "74ec12365dcaf5fd722fd87ea27dfa5d91c61814d47f083b44a23fb11275b8aa"
+        },
+        {
+            "date": 1686203335409,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-08-06-11-error.log",
+            "hash": "bac5f4b9db57a6cfe327b3b4380cc2fb1118b13e00801a40c2ba2e8019013fb3"
+        },
+        {
+            "date": 1686205456953,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-08-06-12-error.log",
+            "hash": "fc555c19c6ea1d88ceb763cf5be1aa390b72d39a746803e359a5a1917bc26a86"
         }
     ],
     "hashType": "sha256"
