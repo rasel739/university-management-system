@@ -49,6 +49,21 @@
             "date": 1686135666039,
             "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-07-06-17-success.log",
             "hash": "5235d93efd69b6beecc81e8092ae5bc205340440545f8c8f5760222cdce0329a"
+        },
+        {
+            "date": 1686199686895,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-08-06-10-success.log",
+            "hash": "5b5c0dba73d5c4a3cf65d816cd830d37bee54983cd7325452f0d6d7ed210fdf7"
+        },
+        {
+            "date": 1686202421314,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-08-06-11-success.log",
+            "hash": "017891937c2a17a243f5ddd052ae09b2512569f7b4f034fde0e196f8aa5f5c28"
+        },
+        {
+            "date": 1686204059822,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-08-06-12-success.log",
+            "hash": "d92835bcca5e8da9276d508a8e9a96a76f922243406630d6939e0424564c505c"
         }
     ],
     "hashType": "sha256"
