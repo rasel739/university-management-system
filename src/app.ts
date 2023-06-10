@@ -1,8 +1,9 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import dbConnect from './utils/dbConnect';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import routes from './routes';
+import httpStatus from 'http-status';
 
 const app: Application = express();
 
@@ -23,6 +24,23 @@ app.get('/', async (req: Request, res: Response) => {
   res.send('University Management System Server is Running');
 });
 
+// global error handler
 app.use(globalErrorHandler);
+
+// Api route not found handler
+
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'NOT FOUND',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'API NOT FOUND',
+      },
+    ],
+  });
+  next();
+});
 
 export default app;

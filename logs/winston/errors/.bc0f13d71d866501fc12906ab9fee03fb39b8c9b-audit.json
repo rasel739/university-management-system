@@ -54,6 +54,16 @@
             "date": 1686205456953,
             "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-08-06-12-error.log",
             "hash": "fc555c19c6ea1d88ceb763cf5be1aa390b72d39a746803e359a5a1917bc26a86"
+        },
+        {
+            "date": 1686374717662,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-10-06-11-error.log",
+            "hash": "fca797d4c5dad9572bcf7db0a7b06644f1bef79ed394f63afbfa4b1074d2cf4e"
+        },
+        {
+            "date": 1686387743691,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/errors/ums-2023-10-06-15-error.log",
+            "hash": "2ec29187ff451c299c2c716b3380eedb0941bcd513407a5a45af360141e4ed05"
         }
     ],
     "hashType": "sha256"
