@@ -69,6 +69,61 @@
             "date": 1686160964691,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-08-06-00-success.log",
             "hash": "a5b132cabb8c91a20165f90263651f20e110e31efa2e324869f192549794ba18"
+        },
+        {
+            "date": 1686472399564,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-14-success.log",
+            "hash": "24113755eef2a209eea4ca90cec5e8bbeb7dfbd69c8c4a16f35090f7a137df32"
+        },
+        {
+            "date": 1686475124573,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-15-success.log",
+            "hash": "a3d2a78cb24a5b1a493461f516eb3c7c74b7b994461584b2614669b8728f97be"
+        },
+        {
+            "date": 1686478954346,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-16-success.log",
+            "hash": "5b49a82bedb6434906cf6f9d120c232c7bf02cd5b0681f757c84018d59063790"
+        },
+        {
+            "date": 1686481206746,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-17-success.log",
+            "hash": "a7831782b64ec936960e4bd7c196cc653a51ba05fa54519731cdb9b82e476875"
+        },
+        {
+            "date": 1686491575075,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-19-success.log",
+            "hash": "9262978aa8500094389e8a6734b2946d2b3f8d811fd088542245a1870235c93a"
+        },
+        {
+            "date": 1686492110943,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-20-success.log",
+            "hash": "ef7dca002a576073e66a212f7928559b6d6060b3118f55184652f5537cbaf972"
+        },
+        {
+            "date": 1686496792182,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-21-success.log",
+            "hash": "90c8f3db3c175d8a84ac6aa0bc393b1aa42977da679e9c0ff955a1d427962215"
+        },
+        {
+            "date": 1686500441489,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-22-success.log",
+            "hash": "cdd76ef3edf2f62e3e387f356f28d8bfa7f98b0492eef694b4a28656b61e84db"
+        },
+        {
+            "date": 1686502889797,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-11-06-23-success.log",
+            "hash": "5eaaae689dd0fac80b4a8fc1c3a2a8e7df24d4f35b4ba05289d2950dc0e4a057"
+        },
+        {
+            "date": 1686506409568,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-12-06-00-success.log",
+            "hash": "40a1407cee6dc184bbf30869a44f71fc8514a809eaf63ba1fbfdcce5412d86ed"
+        },
+        {
+            "date": 1686510093983,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-12-06-01-success.log",
+            "hash": "511c64d7c8ef53dd34eb468b6d71aabec0fe77181c05da1948e7415a592db484"
         }
     ],
     "hashType": "sha256"

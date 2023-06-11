@@ -69,6 +69,61 @@
             "date": 1686160964696,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-08-06-00-error.log",
             "hash": "03ae2acdb6e0c2b1bf7bc804a0a91232b0776edd6279107db02cad45060496f9"
+        },
+        {
+            "date": 1686472399567,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-14-error.log",
+            "hash": "96b42e52cadc21863e07b4ef586a5c2c053579d5da03045695b2b31554ca9404"
+        },
+        {
+            "date": 1686475124576,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-15-error.log",
+            "hash": "70463e04f052c680f3a122300dca21399452f298d0b6df78ee5fac70a7687da3"
+        },
+        {
+            "date": 1686478954349,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-16-error.log",
+            "hash": "923880434694d77a532c273d6bffb5240f48b1111c196673234934c42c6ab980"
+        },
+        {
+            "date": 1686481228264,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-17-error.log",
+            "hash": "aac6daade8c2406fcc75a54acc579e721b763bae4d6f9ae949f2475ff6bb2e24"
+        },
+        {
+            "date": 1686491618346,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-19-error.log",
+            "hash": "7b9d755cacaa3b597a88d66e5c76978f6ea5d7535f84ec639803f8a33f73ec99"
+        },
+        {
+            "date": 1686493005893,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-20-error.log",
+            "hash": "bd35a18f57abd650bec0e90f79a612006db17485909ac2db09f9469318228da4"
+        },
+        {
+            "date": 1686496792186,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-21-error.log",
+            "hash": "9bf58941aaf09b3c20d79b7d67fec2c5f451a38202a5528872b43123ecb1f1b0"
+        },
+        {
+            "date": 1686501223305,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-22-error.log",
+            "hash": "d056d7a610d76d8f24778a122d04359a3166388b4adb39417cfe2803a0a7776e"
+        },
+        {
+            "date": 1686504686091,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-11-06-23-error.log",
+            "hash": "095a324e15a8403ca8123dc3a6d7cb471bec1b8582fc074100085949770468d7"
+        },
+        {
+            "date": 1686506409572,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-12-06-00-error.log",
+            "hash": "a1ce81789bdbf5fa05cfb9c6c02d3a09dc6dc2ec7a49b91d29f9201bc71e0467"
+        },
+        {
+            "date": 1686510712495,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-12-06-01-error.log",
+            "hash": "a0be0f41fbefbde0770f1390c7527d41dad10157046153e21a32f339194cc6e6"
         }
     ],
     "hashType": "sha256"
