@@ -74,6 +74,31 @@
             "date": 1686387743688,
             "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-10-06-15-success.log",
             "hash": "7702a0481d5499806af41231e2b402ff96785d47592fa54dede49869ca663f80"
+        },
+        {
+            "date": 1686548288772,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-12-06-11-success.log",
+            "hash": "ba427bf0bc7d883ba1394504da862e637649f30bac7d5d157351dff0e9eae536"
+        },
+        {
+            "date": 1686550843722,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-12-06-12-success.log",
+            "hash": "eb4eea27ae967877d53eb04412cfe7b26deaa13aa46606f310843d67f583f9a7"
+        },
+        {
+            "date": 1686556800363,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-12-06-14-success.log",
+            "hash": "20fd0f05f67bcd4b158e1e24d1ef8d10a8abca28bd27eb1366538b775d529089"
+        },
+        {
+            "date": 1686561753736,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-12-06-15-success.log",
+            "hash": "9d74eec4757950264660c4654c7429e89f5f224e32f01c1cbd4fce0223dc617d"
+        },
+        {
+            "date": 1686564457005,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-12-06-16-success.log",
+            "hash": "1552983af339e72a76ca032b970976b9aa33c196f378477728ba1d983ad98b64"
         }
     ],
     "hashType": "sha256"
