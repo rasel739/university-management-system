@@ -1,6 +1,0 @@
-{
-  message: '❌ Error connecting:querySrv ESERVFAIL _mongodb._tcp.cluster0.3xqxhrs.mongodb.net',
-  level: '\x1B[31merror\x1B[39m',
-  label: 'UM-ERROR',
-  timestamp: '2023-06-06T17:15:53.225Z'
-}
