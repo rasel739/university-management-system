@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 10
-    },
-    "auditLog": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/.450d72cb3dd732b980e8b2b3cded4bbd2225fe45-audit.json",
-    "files": [
-        {
-            "date": 1686588458419,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-12-06-22-error.log",
-            "hash": "6d95e4139ee62c8bf7ca0137b65c725696368bfe34c872f1679df78cd5f24e3c"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 10
+  },
+  "auditLog": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/.450d72cb3dd732b980e8b2b3cded4bbd2225fe45-audit.json",
+  "files": [
+    {
+      "date": 1686588458419,
+      "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-12-06-22-error.log",
+      "hash": "6d95e4139ee62c8bf7ca0137b65c725696368bfe34c872f1679df78cd5f24e3c"
+    }
+  ],
+  "hashType": "sha256"
 }
