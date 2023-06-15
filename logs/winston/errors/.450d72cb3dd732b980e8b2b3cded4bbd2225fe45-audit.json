@@ -14,6 +14,11 @@
             "date": 1686673211438,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-13-06-22-error.log",
             "hash": "0c7a416fd911044f1299c40c064f680cd5d497946069c5636a6b682d43d0a413"
+        },
+        {
+            "date": 1686763140614,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-14-06-23-error.log",
+            "hash": "b5510f182ff078dca95180ffe65f4c40aef20f83963a02b17a2f22cf9d70fbdf"
         }
     ],
     "hashType": "sha256"
