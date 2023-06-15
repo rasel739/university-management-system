@@ -1,7 +1,8 @@
 import { Schema, model } from 'mongoose';
 import { IStudent, IStudentModel } from './student.interface';
+import { bloodGroup, gender } from './student.constent';
 
-export const studentSchema = new Schema(
+export const studentSchema = new Schema<IStudent, IStudentModel>(
   {
     id: {
       type: String,
@@ -29,11 +30,11 @@ export const studentSchema = new Schema(
     },
     gender: {
       type: String,
-      enum: ['male', 'female'],
+      enum: gender,
     },
     bloodGroup: {
       type: String,
-      enum: ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'],
+      enum: bloodGroup,
     },
     email: {
       type: String,

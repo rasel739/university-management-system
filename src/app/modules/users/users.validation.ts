@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { gender } from '../student/student.constent';
 
 const createUserZodSchema = z.object({
   body: z.object({
@@ -16,8 +17,11 @@ const createUserZodSchema = z.object({
       dateOfBirth: z.string({
         required_error: 'Date of birth is required',
       }),
-      gender: z.enum(['male', 'female'], {
+      gender: z.enum([...gender] as [string, ...string[]], {
         required_error: 'Gender is required',
+      }),
+      bloodGroup: z.enum([...gender] as [string, ...string[]], {
+        required_error: 'Blood group is required',
       }),
     }),
   }),
