@@ -2,7 +2,7 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import dbConnect from './utils/dbConnect';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import routes from './routes';
+import routes from './app/routes';
 import httpStatus from 'http-status';
 
 const app: Application = express();

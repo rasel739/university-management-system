@@ -24,6 +24,16 @@
             "date": 1686763140609,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-14-06-23-success.log",
             "hash": "b5b50a456727de79b58b21a134cef0849248a036305d2505fbc334820e9feef1"
+        },
+        {
+            "date": 1686914302239,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-16-06-17-success.log",
+            "hash": "e1611a48c5059f1ba388ffef4afe9b1bf5cca76c6403bf7ba19cd8e7c1f69fed"
+        },
+        {
+            "date": 1686932370956,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/successes/ums-2023-16-06-22-success.log",
+            "hash": "bc67e594ce0b87dfac5f28599dcdee74393ab09035f05b14fe2109f1f614c102"
         }
     ],
     "hashType": "sha256"
