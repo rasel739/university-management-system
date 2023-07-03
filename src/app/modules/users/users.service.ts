@@ -8,6 +8,8 @@ import { generateStudentId } from './users.utils';
 import ApiError from '../../../errors/ApiErrors';
 import { User } from './users.model';
 import { AcademicSemester } from '../academicSemester/academicSemester.model';
+
+
 const createStudent = async (
   student: IStudent,
   user: IUser
@@ -16,6 +18,8 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.DEFAULT_USER_PASS as string;
   }
+
+ 
   // set role
   user.role = 'student';
 

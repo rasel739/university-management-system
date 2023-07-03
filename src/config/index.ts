@@ -9,4 +9,5 @@ export default {
   DB_USER: process.env.DB_USER,
   DB_PASS: process.env.DB_PASS,
   DEFAULT_USER_PASS: process.env.DEFAULT_USER_PASS,
+  BCRYPT_SALT_ROUNDS: process.env.BCRYPT_SALT_ROUNDS,
 };
