@@ -14,7 +14,7 @@ const loginUserService = async (payload: ILoginUser) => {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
   }
 
-  // match password
+  //user match password
 
   if (
     isUserExits.password &&
