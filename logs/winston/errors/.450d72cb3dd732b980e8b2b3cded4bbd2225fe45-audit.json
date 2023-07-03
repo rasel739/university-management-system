@@ -6,24 +6,14 @@
     "auditLog": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/.450d72cb3dd732b980e8b2b3cded4bbd2225fe45-audit.json",
     "files": [
         {
-            "date": 1686588458419,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-12-06-22-error.log",
-            "hash": "6d95e4139ee62c8bf7ca0137b65c725696368bfe34c872f1679df78cd5f24e3c"
+            "date": 1687631797079,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-25-06-00-error.log",
+            "hash": "8633d0864e5e79ec83d376a71066d21fcc3abff6b1f0101573da91283ee89dc9"
         },
         {
-            "date": 1686673211438,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-13-06-22-error.log",
-            "hash": "0c7a416fd911044f1299c40c064f680cd5d497946069c5636a6b682d43d0a413"
-        },
-        {
-            "date": 1686763140614,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-14-06-23-error.log",
-            "hash": "b5510f182ff078dca95180ffe65f4c40aef20f83963a02b17a2f22cf9d70fbdf"
-        },
-        {
-            "date": 1686914302245,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-16-06-17-error.log",
-            "hash": "173bf604412fa629282087273231c137434095c32a35e939ed7347ae614fb9f4"
+            "date": 1688399193621,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-03-07-21-error.log",
+            "hash": "fa8b9cd82c58ec289252527b1c18648b0f1ac4839ac4dc83455be6394a8b1b4d"
         }
     ],
     "hashType": "sha256"
