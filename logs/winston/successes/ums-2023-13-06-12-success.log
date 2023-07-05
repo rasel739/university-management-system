@@ -1,6 +1,0 @@
-{
-  message: 'SIGTERM is received',
-  level: '\x1B[32minfo\x1B[39m',
-  label: 'UM-INFO',
-  timestamp: '2023-06-13T06:06:59.949Z'
-}

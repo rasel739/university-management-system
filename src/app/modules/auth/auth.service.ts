@@ -1,11 +1,14 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiErrors';
 import { User } from '../users/users.model';
-import { ILoginUser } from './auth.interface';
+import { ILoginUser, ILoginUserResponse } from './auth.interface';
 import jwt, { Secret } from 'jsonwebtoken';
 import config from '../../../config';
+import { jwtHelpers } from '../../../helpers/jwtHelpers';
 
-const loginUserService = async (payload: ILoginUser) => {
+const loginUserService = async (
+  payload: ILoginUser
+): Promise<ILoginUserResponse> => {
   const { id, password } = payload;
 
   // is user exits
@@ -28,34 +31,40 @@ const loginUserService = async (payload: ILoginUser) => {
 
   // create a access token & refres
 
-  const accessToken = jwt.sign(
-    {
-      id: isUserExits?.id,
-      role: isUserExits?.role,
-    },
+  const { id: userId, role, needsPasswordChange } = isUserExits;
+
+  const accessToken = jwtHelpers.createToken(
+    { id: userId, role },
     config.JWT_SECRET_KEY as Secret,
-    {
-      expiresIn: config.JWT_EXPRIES_IN,
-    }
+    config.JWT_EXPRIES_IN as string
   );
 
-  const refreshToken = jwt.sign(
-    {
-      id: isUserExits?.id,
-      role: isUserExits?.role,
-    },
+  const refreshToken = jwtHelpers.createToken(
+    { id: userId, role },
     config.JWT_REFRESH_TOKEN as Secret,
-    {
-      expiresIn: config.JWT_REFRESH_EXPRIES_IN,
-    }
+    config.JWT_REFRESH_EXPRIES_IN as string
   );
 
   return {
     accessToken,
     refreshToken,
+    needsPasswordChange,
   };
+};
+
+const refreshTokenService = async (token: string) => {
+  // verify token is invalid
+  let verifyToken = null;
+  try {
+    verifyToken = jwt.verify(token, config.JWT_REFRESH_TOKEN as Secret);
+
+    console.log(verifyToken);
+  } catch (error) {
+    throw new ApiError(httpStatus.FORBIDDEN, 'Invalid token');
+  }
 };
 
 export const AuthService = {
   loginUserService,
+  refreshTokenService,
 };
