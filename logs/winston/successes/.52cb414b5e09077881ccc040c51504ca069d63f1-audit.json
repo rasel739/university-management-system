@@ -6,19 +6,24 @@
     "auditLog": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/.52cb414b5e09077881ccc040c51504ca069d63f1-audit.json",
     "files": [
         {
-            "date": 1686631919467,
-            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-13-06-10-success.log",
-            "hash": "ccaf2d8bccea6907e89f4095ce98bc0f9ea5bdd1fdfc2243b0a62ef74a688d79"
+            "date": 1688543473609,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-05-07-13-success.log",
+            "hash": "445c0941419565cb36441cb538138fd76cb6d102f5ffe17caa8463f397cf30e9"
         },
         {
-            "date": 1686632727712,
-            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-13-06-11-success.log",
-            "hash": "43cb16f983b11ed680956e4eeb8ad59e2be6675b8694d87acaa523cc0d23ac99"
+            "date": 1688545517156,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-05-07-14-success.log",
+            "hash": "77237acbb34c5e5051b36e74cbc08caa9f5a9dfc55a205c1e3b6d52def73b1fb"
         },
         {
-            "date": 1686636419950,
-            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-13-06-12-success.log",
-            "hash": "40a6c0e5fe7d210d6fa789a33684ab07acab8b0963362dbf6403f9ada1572766"
+            "date": 1688547646976,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-05-07-15-success.log",
+            "hash": "4677ec0c92ed7a066975e7f2fc741cebf7e01d336ad7e72a0a741e62eba1587f"
+        },
+        {
+            "date": 1688551991339,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-05-07-16-success.log",
+            "hash": "14a7a005b13f7ed9a495e89d9948748d6a5758502bf94a780c89bec9777c2751"
         }
     ],
     "hashType": "sha256"
