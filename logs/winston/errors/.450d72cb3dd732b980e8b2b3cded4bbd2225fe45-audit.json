@@ -6,14 +6,14 @@
     "auditLog": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/.450d72cb3dd732b980e8b2b3cded4bbd2225fe45-audit.json",
     "files": [
         {
-            "date": 1687631797079,
-            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-25-06-00-error.log",
-            "hash": "8633d0864e5e79ec83d376a71066d21fcc3abff6b1f0101573da91283ee89dc9"
-        },
-        {
             "date": 1688399193621,
             "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-03-07-21-error.log",
             "hash": "fa8b9cd82c58ec289252527b1c18648b0f1ac4839ac4dc83455be6394a8b1b4d"
+        },
+        {
+            "date": 1688577206238,
+            "name": "/home/rasel/Desktop/ph-next-assignment/university-management-system/logs/winston/errors/ums-2023-05-07-23-error.log",
+            "hash": "9e15032855232ed02e60338e6647203b00e934cb8422e01237d6bae8096f2e16"
         }
     ],
     "hashType": "sha256"
