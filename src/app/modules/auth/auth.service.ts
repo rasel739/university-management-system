@@ -2,13 +2,17 @@ import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiErrors';
 import { User } from '../users/users.model';
 import {
+  IChangePassword,
   ILoginUser,
   ILoginUserResponse,
   IRefreshTokenResponse,
 } from './auth.interface';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../../config';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
+import bcrypt from 'bcrypt';
+
+const userMethod = new User();
 
 const loginUserService = async (
   payload: ILoginUser
@@ -17,9 +21,7 @@ const loginUserService = async (
 
   // is user exits
 
-  const user = new User();
-
-  const isUserExits = await user.isUserExists(id);
+  const isUserExits = await userMethod.isUserExists(id);
   if (!isUserExits) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
   }
@@ -28,7 +30,7 @@ const loginUserService = async (
 
   if (
     isUserExits.password &&
-    !user.isPasswordMatch(password, isUserExits?.password)
+    !userMethod.isPasswordMatch(password, isUserExits?.password)
   ) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Password is incorrect');
   }
@@ -70,10 +72,9 @@ const refreshTokenService = async (
     throw new ApiError(httpStatus.FORBIDDEN, 'Invalid token');
   }
 
-  const user = new User();
   const { userId } = verifyToken;
 
-  const isUserExits = await user.isUserExists(userId);
+  const isUserExits = await userMethod.isUserExists(userId);
 
   if (!isUserExits) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
@@ -92,7 +93,47 @@ const refreshTokenService = async (
   };
 };
 
+const changePasswordService = async (
+  user: JwtPayload | null,
+  payload: IChangePassword
+): Promise<void> => {
+  const { oldPassword, newPassword } = payload;
+
+  const isUserExists = await userMethod.isUserExists(user?.userId);
+
+  if (!isUserExists) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
+  }
+
+  //user match password
+
+  if (
+    isUserExists.password &&
+    !(await userMethod.isPasswordMatch(oldPassword, isUserExists?.password))
+  ) {
+    throw new ApiError(httpStatus.UNAUTHORIZED, 'Password is incorrect');
+  }
+
+  // new hash password saved
+
+  const newHashedPassword = await bcrypt.hash(
+    newPassword,
+    Number(config.BCRYPT_SALT_ROUNDS)
+  );
+
+  // user update password
+
+  const updateData = {
+    password: newHashedPassword,
+    needsPasswordChange: false,
+    passwordChangedAt: new Date(),
+  };
+
+  await User.findOneAndUpdate({ id: user?.userId }, updateData);
+};
+
 export const AuthService = {
   loginUserService,
   refreshTokenService,
+  changePasswordService,
 };
