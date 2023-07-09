@@ -24,6 +24,16 @@
             "date": 1688551991339,
             "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-05-07-16-success.log",
             "hash": "14a7a005b13f7ed9a495e89d9948748d6a5758502bf94a780c89bec9777c2751"
+        },
+        {
+            "date": 1688878683569,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-09-07-10-success.log",
+            "hash": "cc6fb0fc3ad2cf62e3ad32c3f0b35aa113d4f583dc1ebe8c3dae45800973c99a"
+        },
+        {
+            "date": 1688878990829,
+            "name": "/home/rasel/Desktop/ph-next-level/university-management-system/logs/winston/successes/ums-2023-09-07-11-success.log",
+            "hash": "1706905c83f56c287b75671309d1ae408dcbfdef48b422b00b6c7a388508fac8"
         }
     ],
     "hashType": "sha256"

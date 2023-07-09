@@ -23,6 +23,9 @@ const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
       type: Boolean,
       default: true,
     },
+    passwordChangedAt: {
+      type: Date,
+    },
     student: {
       type: Schema.Types.ObjectId,
       ref: 'Student',
@@ -49,7 +52,7 @@ userSchema.methods.isUserExists = async function (
 ): Promise<Partial<IUser> | null> {
   const user = await User.findOne(
     { id },
-    { id: 1, password: 1,role:1, needsPasswordChange: 1 }
+    { id: 1, password: 1, role: 1, needsPasswordChange: 1 }
   );
 
   return user;
